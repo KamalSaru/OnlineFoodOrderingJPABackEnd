@@ -1,0 +1,16 @@
+
+
+@Postmapping--http://localhost:8080/order/action/place
+
+{
+    "lineItems": [
+        {
+            "itemTitle" : "MoMo",
+            "price" : "100"
+        },
+        {
+            "itemTitle" : "Chowmein",
+            "price" : "200"
+        }
+    ]
+}
